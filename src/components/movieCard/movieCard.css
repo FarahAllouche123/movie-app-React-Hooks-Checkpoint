@@ -1,0 +1,39 @@
+/* Container spacing */
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.card img {
+  height: 270px;
+  object-fit: cover;
+}
+
+/* Title */
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Description */
+.card-text {
+  font-size: 14px;
+  color: #555;
+  height: 60px;
+  overflow: hidden;
+}
+
+/* Button */
+button {
+  width: 100%;
+  border-radius: 10px;
+}
